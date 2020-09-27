@@ -1,0 +1,26 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "Upon user input it creates a professional readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadtarpey615/README-Generator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Chad Tarpey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chadtarpey615/README-Generator/issues"
+  },
+  "homepage": "https://github.com/chadtarpey615/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "markdown-js": "0.0.4"
+  }
+}

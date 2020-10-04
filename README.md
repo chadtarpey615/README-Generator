@@ -1,52 +1,68 @@
-##   [![Website lbesson.bitbucket.org](https://img.shields.io/website-up-down-green-red/http/lbesson.bitbucket.org.svg)](http://lbesson.bitbucket.org/)  
+##   [![Website lbesson.bitbucket.org](https://img.shields.io/website-up-down-green-red/http/lbesson.bitbucket.org.svg)](http://lbesson.bitbucket.org/)   
 
-### Title
+###readme
+ 
 
-vwev
-    
+-------------------------------------    
     
 ### Table Of Contents
 
 |  content  | 
 |  -------  |
-|[Description](#description)|
-|How To Use|
-|License|
-|Author Info|
+|[Description](#description-description)|
+|[How To Use](#how to use-how to use)|
+|[License](#License-License)|
+|[Author Info](#author info-author-info)|
 
-     
+---------------------------------------     
     
-    
-### Description {#description}
+ 
 
-dwvwdv
+
+### Description 
+
+upon user selection
     
-    
+--------------------------------------
+
+
+
 ### Installation
 
-wfcv
+using node.js
     
-    
+--------------------------------------    
+
+
  ### Usage
 
-wvc
+to create a professional readme
     
-    
+--------------------------------------
+
+
+
  ### License
 
 GPL License
     
     
+--------------------------------------
+
+
+
  ### Contributions
 
- wfcwe 
+ just myslef 
     
-     
+ --------------------------------------
+
+
 ### Author Info and Contact Information for questions
 
-wecv
+Email: [chadtarpey@gmail.com]
 
-fwqfwqf
+Name: chad tarpey
 
-
+GitHub: [@chad615]
      

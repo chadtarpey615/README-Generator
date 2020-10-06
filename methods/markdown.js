@@ -25,7 +25,7 @@ function markDownStructure(data) {
  
 
 
-### Description 
+### Description ‹
 
 - ${data.description}
     
@@ -42,7 +42,7 @@ function markDownStructure(data) {
 
  ### Usage
 
-${data.usage}
+- ${data.usage}
     
 --------------------------------------
 
@@ -72,7 +72,7 @@ ${data.usage}
 
 * GitHub: [github.com/${data.username}]
 
-[back to top](##Table-Of-Contents)
+[back to top](#Table-Of-Contents)
      `
 }
 

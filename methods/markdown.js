@@ -1,7 +1,8 @@
 function markDownStructure(data) {
-    return `##   ${data.badge}  
+    return `
+###  ${data.title}
 
-###${data.title}
+## ![${data.license} license](https://img.shields.io/badge/License-${data.license}-blue.svg)
  
 
 -------------------------------------    
@@ -9,10 +10,15 @@ function markDownStructure(data) {
 ### Table Of Contents
 
 
-|[${data.table[0] ? data.table[0]: ""}](#description-description)|
-|[${data.table[1] ? data.table[1]: ""}](#usage)|
-|[${data.table[2] ? data.table[2]: ""}](#License-License)|
-|[${data.table[3] ? data.table[3]: ""}](#author-info-and-contact-information-for-questions)|
+- [${data.table[0] ? data.table[0]: ""}](#description)
+
+- [${data.table[1] ? data.table[1]: ""}](#usage)
+
+- [${data.table[2] ? data.table[2]: ""}](#License)
+
+- [${data.table[3] ? data.table[3]: ""}](#Author-Info-and-Contact-Information-for-questions)
+
+
 
 ---------------------------------------     
     
@@ -21,7 +27,7 @@ function markDownStructure(data) {
 
 ### Description 
 
-${data.description}
+- ${data.description}
     
 --------------------------------------
 
@@ -29,7 +35,7 @@ ${data.description}
 
 ### Installation
 
-${data.install}
+- ${data.install}
     
 --------------------------------------    
 
@@ -44,7 +50,7 @@ ${data.usage}
 
  ### License
 
-${data.license}
+- ${data.license}
     
     
 --------------------------------------
@@ -53,20 +59,24 @@ ${data.license}
 
  ### Contributions
 
- ${data.contributing} 
+ - ${data.contributing} 
     
  --------------------------------------
 
 
 ### Author Info and Contact Information for questions
 
-Email: ${data.email}
+* Email: ${data.email}
 
-Name: ${data.username}
+* Name: ${data.username}
 
-GitHub: ${data.github}
+* GitHub: [github.com/${data.username}]
+
+[back to top](##Table-Of-Contents)
      `
 }
+
+
 
 
 

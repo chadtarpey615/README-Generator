@@ -1,25 +1,13 @@
 var inquirer = require("inquirer");
 var fs = require("fs");
-var markDown = require("./methods/markdown");
-const markDownStructure = require("./methods/markdown");
+const markDown = require("./methods/markdown");
 
 
 
 const questions = [
 
 
-    {
 
-
-        type: "checkbox",
-        message: "Please enter your badge code",
-        name: "badge",
-        choices: ["[![Website lbesson.bitbucket.org](https://img.shields.io/website-up-down-green-red/http/lbesson.bitbucket.org.svg)](http://lbesson.bitbucket.org/) ",
-                  "[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)",
-                  "[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)",
-                  "[![Badge for version for Visual Studio Code extension naereen.makefiles-support-for-vscode](https://vsmarketplacebadge.apphb.com/version/naereen.makefiles-support-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=naereen.makefiles-support-for-vscode)"
-                  ]
-    },
     {
         type: "input",
         message: "Please enter you full name ?",
@@ -64,10 +52,10 @@ const questions = [
     },
 
     {
-        type: "checkbox",
+        type: "list",
         message: "Please choose a license?",
         name: "license",
-        choices: ["GPL License", "Public Domain", "MIT License", "Apache License"]
+        choices: ["GPL", "Public Domain", "MIT License", "Apache License"]
     },
 
     {
